@@ -1,3 +1,6 @@
+/*calculator application where first user enters 2 integers.
+After the result, the User will be asked if he wishes to do another operation, if yes, repeat., else, quit
+*/
 #include<stdio.h>
 int main()
 {
@@ -33,3 +36,5 @@ while(y==1)
 }        
 return 0;
 }
+
+//difficulty rating : 80/100
