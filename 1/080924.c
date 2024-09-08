@@ -4,8 +4,8 @@ Write a program to cheack if a string is palindrome..
 #include <stdio.h>
 int main()
 { 
-    char string[40];
-    int length=0, flag=1,i;
+    char string[15];
+    int length=0, check=1,i;
 
     printf("Enter string:\n");
     gets(string);
@@ -19,13 +19,13 @@ int main()
     {
         if( string[i] != string[length-1-i] )
         {
-            flag=0;
+            check=0;
             break;
         }
 
  }
 
-    if(flag==1)
+    if(check==1)
     {
         printf("Yes it's a palindrome");
     }
