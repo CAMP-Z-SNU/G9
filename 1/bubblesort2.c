@@ -1,4 +1,7 @@
-#include<stdio.h>
+/*
+write a program to print the elements of the array in descending order
+ */
+ #include<stdio.h>
 int main(){
     int n;
     printf("Enter size of the array: ");
@@ -29,3 +32,7 @@ int main(){
     }
     return 0;
 }
+
+/*
+Difficulty Rating - 80/100
+*/
