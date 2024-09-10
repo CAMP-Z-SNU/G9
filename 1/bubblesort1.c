@@ -1,3 +1,6 @@
+/*
+write a program to print the elements of the array in ascending order
+ */
 #include<stdio.h>
 int main(){
     int n;
@@ -29,3 +32,7 @@ int main(){
     }
     return 0;
 }
+
+/*
+Difficulty Rating - 80/100
+*/
